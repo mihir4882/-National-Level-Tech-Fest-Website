@@ -1,0 +1,127 @@
+table.cluster-events td {
+	width: 50%;
+	border: 2px solid #039be5;
+	text-align: center;
+}
+
+#cluster-list {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#cluster-list .cluster-row {
+	font-size: 0;
+}
+#cluster-list .cluster {
+	display: inline-block;
+	vertical-align: middle;
+	height: 55px;
+	width: calc(100% / 5);
+	margin: 0;
+	padding: 0;
+	font-size: 9px;
+	color: #039be5;
+}
+#mobile-placeholder {
+	margin: 10px;
+}
+.cluster.active {
+	background: rgba(20, 128, 191, 0.15);
+	color: white !important;
+} 
+
+.cluster-events-container {
+	height: calc(100% - 140px);
+}
+.cluster img {
+	height: 40px;
+	width: 40px;
+}
+table.cluster-events td {
+	padding: 0;
+	font-size: 10px;
+}
+table.cluster-events td:hover {
+    background: rgba(20, 128, 191, 0.15);
+}
+table.cluster-events td a {
+	color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+
+.fixed-action-btn {
+	bottom: 170px;
+}
+
+.cluster span {
+	display: block;
+	width: 40px;
+	text-align: center;
+	margin: auto;
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	#cluster-list .cluster {
+		padding: 12.5px 0;
+		width: calc(100% / 5) !important;
+		font-size: 10px !important;
+		padding-left: 0 !important;
+	}
+	.cluster img {
+		width: 25px !important;
+		height: 25px !important;
+	}
+}
+@media screen and (min-width: 600px){
+	#mobile-placeholder {
+		font-size: 30px;
+		margin: 5px;
+	}
+	.cluster-events-container {
+		position: absolute;
+		top: 53px;
+		left: 0;
+		right: 0;
+		display: block;
+		background: url('https://www.pragyan.org/18/cms/templates/pragyan18cluster/images/cluster_holder.svg') no-repeat center center;
+		background-size: 550px 300px;
+		max-width: 550px;
+		height: 300px;
+		margin: auto;
+	}
+
+	.cluster-events-container table {
+		width: 400px;
+		margin: 30px auto;
+	}
+	#cluster-list .cluster {
+		height: 50px;
+		width: 18%;
+		text-align: left;
+		padding-left: 10px;
+	}
+	.cluster:hover {
+		background: rgba(20, 128, 191, 0.15);
+		color: white !important;
+		cursor: pointer;
+	}
+	.cluster img {
+		height: 50px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.cluster span {
+		width: calc(100% - 60px);
+		text-align: left;
+		font-size: 15px;
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	table.cluster-events td {
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+} 

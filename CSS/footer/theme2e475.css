@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic);
+body {
+	background-color : #ffffff;
+}
+h1 {
+	font-family : 'Fjalla One';
+	font-weight : normal;
+	text-transform : uppercase;
+	font-size : 50px;
+}
+h2 {
+	font-family : 'Lato';
+	font-weight : normal;
+	font-size : 25px;
+}
+.btn:not([bs-btn]) {
+	background-color : #A1BBC6;
+	color : #ffffff;
+	font-family : 'Lato';
+}
+i.fa:not([style*=":"]) {
+	color : #A1BBC6;
+	background-color : #ffffff;
+	font-size : 35px;
+	height : 60px;
+	width : 60px;
+	line-height : 60px;
+}
+h3 {
+	font-family : 'Lato';
+	font-size : 18px;
+	font-weight : normal;
+
+}
+h4 {
+	font-family : 'Fjalla One';
+	font-weight : bold;
+
+}
+p {
+	font-family : 'Lato';
+	font-size : 15px;
+	color : #9c9c9c;
+}
+a {
+	font-family : 'Lato';
+	color : #353535;
+	font-size : 15px;
+}
+.secondary  {
+	background-color : #ffffff;
+}
+.secondary h1 {
+	font-family : 'Fjalla One';
+	color : #383838;
+	font-size : 72px;
+	line-height: 79px;
+}
+.secondary h2 {
+	font-family : 'Lato';
+	color : #030303;
+	font-size : 25px;
+	text-transform : none;
+}
+.secondary h3 {
+	font-family : 'Lato';
+	color : #999999;
+	font-size : 20px;
+}
+.secondary h4 {
+	font-family : 'Fjalla One';
+	color : #191919;
+	font-size : 20px;
+}
+.secondary p {
+	font-family : 'Lato';
+	color : #383838;
+	text-transform : none;
+}
+.secondary a {
+	font-family : 'Lato';
+	color : #0d0d0d;
+}
+.secondary i.fa:not([style*=":"]) {
+	background-color : #ffffff;
+	color : #A1BBC6;
+}
+.negative  {
+	background-color : #A1BBC6;
+}
+.negative h1 {
+	font-family : 'Fjalla One';
+}
+.negative h2 {
+	font-family : 'Lato';
+}
+.negative h3 {
+	font-family : 'Lato';
+	color : #ffffff;
+}
+.negative h4 {
+	font-size : 18px;
+	color : #ffffff;
+font-weight: normal;
+}
+.negative i.fa:not([style*=":"]) {
+	color : #383838;
+}
+.negative a {
+	color : #595959;
+}
+.negative p {
+	font-size : 16px;
+	color : #595959;
+}
+.negative .btn:not([bs-btn]) {
+	color : #A1BBC6;
+	background-color : #ffffff;
+}
+.main  {
+	background-color : #F7E8C1;
+}
+.main h1 {
+	font-family : 'Fjalla One';
+	color : #383838;
+}
+.main .btn:not([bs-btn]) {
+	background-color : #353535;
+}
+.main h2 {
+	font-family : 'Lato';
+	font-weight : bold;
+	font-style : normal;
+	text-decoration : none;
+	text-transform : none;
+	color : #383838;
+}
+.main h3 {
+	font-family : 'Lato';
+	color : #383838;
+	font-size : 20px;
+}
+.main h4 {
+	font-family : 'Fjalla One';
+	color : #383838;
+	font-size : 20px;
+}
+.main p {
+	font-family : 'Lato';
+	font-size : 15px;
+	color : #595959;
+}
+.main a {
+	font-family : 'Lato';
+	font-size : 15px;
+	color : #000000;
+}
+.main i.fa:not([style*=":"]) {
+	font-size : 25px;
+	height : 50px;
+	width : 50px;
+	line-height : 50px;
+	color : #383838;
+	background-color : #ffffff;
+}
+.basic  {
+	background-color : #ffffff;
+}
+.basic h1 {
+	font-family : 'Fjalla One';
+	font-weight : normal;
+	text-transform : uppercase;
+	font-size : 50px;
+}
+.basic h2 {
+	font-family : 'Lato';
+	font-weight : normal;
+	font-size : 25px;
+}
+.basic .btn:not([bs-btn]) {
+	background-color : #A1BBC6;
+	color : #ffffff;
+	font-family : 'Lato';
+}
+.basic i.fa:not([style*=":"]) {
+	color : #A1BBC6;
+	background-color : #ffffff;
+	font-size : 35px;
+	height : 60px;
+	width : 60px;
+	line-height : 60px;
+}
+.basic h3 {
+	font-family : 'Lato';
+	font-size : 18px;
+}
+.basic h4 {
+	font-family : 'Fjalla One';
+}
+.basic p {
+	font-family : 'Lato';
+	font-size : 15px;
+	color : #9c9c9c;
+}
+.basic a {
+	font-family : 'Lato';
+	color : #050505;
+	font-size : 15px;
+}
+.theme-color {
+	color: #ffffff;
+}
+.theme-border-color {
+	border-color: #ffffff;
+}
+.theme-background {
+	background-color: #ffffff;
+}
+.secondary-color {
+	color: #ffffff;
+}
+.secondary-border-color {
+	border-color: #ffffff;
+}
+.secondary-background {
+	background-color: #ffffff;
+}
+.negative-color {
+	color: #A1BBC6;
+}
+.negative-border-color {
+	border-color: #A1BBC6;
+}
+.negative-background {
+	background-color: #A1BBC6;
+}
+.main-color {
+	color: #F7E8C1;
+}
+.main-border-color {
+	border-color: #F7E8C1;
+}
+.main-background {
+	background-color: #F7E8C1;
+}

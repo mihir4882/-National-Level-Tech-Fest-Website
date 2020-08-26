@@ -1,0 +1,390 @@
+/* HTML */
+html {
+	height: 100%;
+	color: white;
+	background-color: #001129;
+}
+/* BODY */
+
+/*  BREADCRUMB  */
+#breadcrumb {
+	display: inline-block;
+	vertical-align: middle;
+	width: 180px;
+	margin: auto;
+	line-height: 18px;
+}
+.cms-breadcrumbItem:not(:first-child):before {
+	content: '\E5CC';
+	color: rgba(20, 128, 191, 0.7);
+	vertical-align: top;
+	display: inline-block;
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 25px;
+	margin: 0 8px 0 6px;
+	-webkit-font-smoothing: antialiased;
+}
+.cms-breadcrumbItem a {
+	white-space: nowrap;
+	text-transform: uppercase;
+}
+
+.cms-breadcrumbItem a:hover {
+  text-decoration: underline;
+  color: #039be5;
+}
+
+
+/* NAVBAR */
+.navbar {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav {
+	background: transparent;
+}
+.navbar .button-collapse {
+	float: right;
+}
+
+.navbar .button-collapse i {
+	color: #74deda;
+}
+
+/* HEADER */
+.header .brand-logo {
+    height: calc(100% - 20px);
+    margin: 10px 0;
+}
+
+.header .brand-logo img {
+	height: 100%;
+	padding: 0; 
+}
+
+.header .back {
+	height: 56px;
+	position: absolute;
+	display: inline-block;
+	vertical-align: middle;
+	right: 0;
+}
+
+.header .back:hover {
+	cursor: pointer;
+}
+
+.header .back img {
+	height: 100%;
+}
+
+/* MAIN_REGISTER */
+.main-register {
+	float: right;
+	width: 120px;
+	color: black;
+}
+
+.header {
+	position: fixed;
+	box-shadow: none;
+	background: url('../images/bg_mt.png') no-repeat top center fixed;
+	top: 0;
+	z-index: 100;
+	height: 70px;
+	background-size: 100% 70px;
+}
+
+.bottomcontentbar {
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: url('../images/bg_lb.png') no-repeat bottom center fixed;;
+	background-size: auto 40px;
+}
+
+.contentcontainer {
+	position: absolute;
+	top: 110px;
+	left: 0;
+	right: 0;
+	height: calc(100% - (110px));
+	text-align: center;
+}
+
+#cms-content {
+	position: relative;
+	height: calc(100% - 45px);
+	margin-bottom: 45px;
+	overflow: hidden;
+}
+
+footer li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto 5px;
+}
+
+footer > div {
+	height: 20px;
+	width: 100%;
+	margin: 0;
+}
+
+footer .icons {
+	margin: 0;
+}
+
+.page-holder {
+  margin: auto 5px;
+}
+
+.page-heading {
+	position: absolute;
+	top: 0;
+	height: 30px;
+	width: 100%;
+}
+.page-heading p {
+	line-height: 30px;
+	font-size: 30px;
+	margin: 0;
+}
+.page-menu {
+	position: absolute;
+	bottom: 0;
+	font-size: 10px;
+	height: 75px;
+    width: 100%;
+}
+.page-content {
+	position: absolute;
+	top: 35px;
+	width: 100%;
+	height: calc(100% - 110px);
+	padding-bottom: 100px;
+	overflow: scroll;
+	text-align: justify;
+}
+.tabElement {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% / 6);
+	height: 75px;
+	background:(0,85,162,0.5);
+	border: 2px solid rgba(0,85,162,0.3);
+	border-left: 0;
+}
+.tabElement a.tabitemactive {
+	color: white;
+}
+.tabElement:first-child {
+	border-left: 2px solid rgba(0,85,162,0.3);
+}
+.tabElement img {
+	height: 40px;
+}
+.tabElement span {
+    width: 40px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 9px;
+}
+
+.fixed-action-btn ul > li > span {
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+  background: transparent;
+  padding: 3px 9px;
+  color: white;
+  margin-top: 4px;
+}
+
+.page-content ul {
+	padding-left: 30px;
+}
+.page-content ul li {
+	list-style-type: initial;
+}
+
+#news_container {
+	height: 30px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px auto; 
+	background: url('../images/news_holder.svg') no-repeat center center; 
+}
+
+.page-content .tabContent {
+	display: none;
+}
+.page-content .tabContent.active {
+	display: block;
+}
+
+@media screen and (min-width:600px) {
+	body {
+		background: url('../images/bg_lm.svg') no-repeat center center fixed;
+		background-size: cover;
+	}
+	.navbar .button-collapse {
+		float: left;
+	}
+	.header {
+		height: 84px;
+		background: url('../images/bg_lt.png') no-repeat top center fixed;
+		background-size: 100% 84px;
+	}
+	.header .brand-logo {
+		margin: 10px auto;
+		height: 64px;
+	}
+	.contentcontainer {
+		position: absolute;
+		top: 124px;
+		left: 0;
+		right: 0;
+		height: calc(100% - (124px));
+		text-align: center;
+	}
+	footer {
+		height: 60px;
+	}
+	footer > div {
+		height: 60px;
+		width: auto;
+		line-height: 60px;
+		display: inline-block;
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+	#cms-content {
+		position: relative;
+		height: calc(100% - 65px);
+		margin: 0;
+		padding: 0;
+		padding-bottom: 65px;
+		overflow: hidden;
+	}
+	.bottomcontentbar {
+		height: 60px;
+		background-size: auto 60px;
+	}
+	.header .back {
+		height: 64px;
+	}
+	.page-holder {
+  		margin: auto 10px;
+	}
+	.page-menu {
+		height: 100%;
+		width: calc(25% - 10px);
+		overflow: hidden;
+		margin: 0 5px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.page-heading {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100px;
+		text-align: left;
+		width: calc(25% - 10px);
+		margin: 0 5px;
+		background: linear-gradient(to right, rgba(0,206,200,0.3) 0%, rgba(255,255,255,0) 57%);
+		padding-left: 10px;
+	}
+	.page-heading p {
+		margin: 0;
+		height: 100%;
+		text-align: left; 
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+	.page-content {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: calc(75% - 10px);
+		overflow: hidden;
+		border-radius: 40px;
+		margin: 0 5px;
+		padding: 30px;
+		text-align: left;
+	}
+	.page-content .tabContent {
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	.page-menu {
+		position: absolute;
+		left: 0;
+		top: 100px;
+	}
+
+	#tabList {
+		margin-top: 15px;
+	}
+	.tabElement.register {
+		display: block;
+	}
+	.tabElement {
+		width: 100%;
+		text-align: left;
+		height: 50px;
+		margin-bottom: 5px;
+		font-size: 15px;
+		line-height: 50px;
+		text-transform: uppercase;
+		border:0;
+	}
+	.tabElement a {
+		padding-left: 5px;
+		display: block;
+		height: 100%;
+		background:linear-gradient(to right, rgba(0,85,162,0.5) 0%, rgba(0,0,0,0) 75%);
+	}
+	.tabElement img {
+	    display: inline-block;
+	    height: 100%;
+	    vertical-align: middle;
+	}
+	.tabElement:hover a {
+		color: white;
+		transform: scale(1.01);
+		background:linear-gradient(to right, rgba(0,85,162,1) 0%, rgba(0,0,0,0) 100%);
+		animation: all 100ms linear;
+	}
+	.tabElement a span {
+		width: auto;
+	    display: inline-block;
+	    height: 100%;
+	    vertical-align: middle;
+		padding-left: 5px;
+		font-size: 15px;
+	}
+	.tabElement a.tabitemactive {
+		color: white;
+		background:linear-gradient(to right, rgba(0,85,162,1) 0%, rgba(0,0,0,0) 100%);
+		animation: background 1s;
+	}
+
+	#news_container {
+		width: 500px;
+	}
+	div.fixed-action-btn {
+		bottom: 23px;
+	}
+}

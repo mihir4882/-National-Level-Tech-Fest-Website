@@ -1,0 +1,32 @@
+#cms-content {
+
+}
+.fixed-action-btn {
+	bottom:130px;
+}
+.page-heading p {
+    font-size: 20px !important;
+}
+.registrationform fieldset {
+    border: 0;
+}
+.registrationform i.btn-large {
+    display: none;
+}
+
+.registrationform a  {
+    padding: 20px;
+    background: #26a69a;
+    color: white;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 600px) {
+	#cms-content {
+		margin: 0;
+		padding: 0;
+	}
+	.page-content {
+		background: url('https://www.pragyan.org/18/cms/templates/pragyan18workshops/images/fish.svg') no-repeat center center;
+		background-size: 100% 100%;
+	}
+}

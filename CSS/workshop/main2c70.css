@@ -1,0 +1,53 @@
+form.cms-registrationform input[type="submit"],#pragyan_loginform input[type="submit"] {
+	height:2.75em;line-height:2.75em;padding:0 1.5em;background-color:transparent
+}
+
+#cms-content {
+	border-radius: 40px;
+	padding: 20px;
+	text-align: left;
+	margin: 0 5px;
+	overflow-y: scroll;
+}
+.page-container {
+    text-align:justify;
+}
+
+.workshop-list .workshop {
+    text-align: center;
+    max-width: 350px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 33px;
+}
+
+.workshop .workshop-description {
+    border-top: 1px solid #97e6e4;
+    background: linear-gradient(to top, #1f4e5c 0%, #011b30 100%);
+    padding: 1em 0;
+}
+
+.workshop .img-container img {
+    width: 100%;
+}
+
+.workshop .workshop-title {
+    font-size: 1rem;
+    min-height: 50px;
+    margin: 3px 0;
+    color: white;
+}
+@media screen and (min-width: 600px) {
+	#cms-content {
+		padding: 30px;
+		overflow-y: auto;
+	}
+	.page-holder {
+		background: url('https://www.pragyan.org/18/cms/templates/pragyan18article/images/double_meen.svg') no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.page-container {
+		height: 100%;
+		overflow-y: auto;
+	}
+}
